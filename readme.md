@@ -4,7 +4,7 @@ I've laid out everything you need to know to finish this project. Aside from *re
 This file contains a list of all the tasks that remain, in basically the same order as they appear in the source code, so all you need to do is start at the top and work your way down. Remember that Google is your friend :)
 
 ## In /index.html
-+ The page needs a better title. Think of one and change it to that.
++ The page needs a better title. Think of one and change it to that. X
 
 + The stylesheet needs to be hooked up to the page. In the head section, add a link to our external stylesheet: it's named style.css and it's located inside the /css folder.
 
