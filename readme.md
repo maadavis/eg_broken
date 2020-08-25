@@ -13,11 +13,11 @@ This file contains a list of all the tasks that remain, in basically the same or
 ## In /css/style.css
 + Set the default font on the body to 'Gentium Book Basic' with a fallback to serif, so it will be inherited by the rest of the elements. X
 
-+ Use flex display to lay out the main menu in a horizontal row and use justify-content to distribute the links as space-between.
++ Use flex display to lay out the main menu in a horizontal row and use justify-content to distribute the links as space-between. X
 
-+ Use left and right auto margin to center both the header and article sections horizontally on the page.
++ Use left and right auto margin to center both the header and article sections horizontally on the page. X
 
-+ Horizontally center the header h1 elements and use the font and text-transform properties to visually distinguish class .small from the other h1. Try to set it to 900-weight, Lato font (with a sans-serif fallback), in all caps. It should probably also be smaller in size.
++ Horizontally center the header h1 elements and use the font and text-transform properties to visually distinguish class .small from the other h1. Try to set it to 900-weight, Lato font (with a sans-serif fallback), in all caps. It should probably also be smaller in size. X
 
 + Use float to position the article figure on the right-hand side of the text.
 
