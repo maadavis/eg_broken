@@ -8,7 +8,7 @@ This file contains a list of all the tasks that remain, in basically the same or
 
 + The stylesheet needs to be hooked up to the page. In the head section, add a link to our external stylesheet: it's named style.css and it's located inside the /css folder. X
 
-+ One image still needs to be added. Inside the article element, there's a figure without an image. Add an image element that links to the dodo.jpg file inside the /img folder. Don't forget to use the alt attribute! X?
++ One image still needs to be added. Inside the article element, there's a figure without an image. Add an image element that links to the dodo.jpg file inside the /img folder. Don't forget to use the alt attribute! X
 
 ## In /css/style.css
 + Set the default font on the body to 'Gentium Book Basic' with a fallback to serif, so it will be inherited by the rest of the elements. X
@@ -19,15 +19,15 @@ This file contains a list of all the tasks that remain, in basically the same or
 
 + Horizontally center the header h1 elements and use the font and text-transform properties to visually distinguish class .small from the other h1. Try to set it to 900-weight, Lato font (with a sans-serif fallback), in all caps. It should probably also be smaller in size. X
 
-+ Use float to position the article figure on the right-hand side of the text.
++ Use float to position the article figure on the right-hand side of the text. X
 
-+ Use font to style the figcaption so that the size is smaller and the font is lighter-weight and visually distinct (a different font-family) from the body text.
++ Use font to style the figcaption so that the size is smaller and the font is lighter-weight and visually distinct (a different font-family) from the body text. X
 
-+ Use auto margins, flex display, and justify-content to evenly distribute (space-evenly) the pagination buttons at the bottom of the page.
++ Use auto margins, flex display, and justify-content to evenly distribute (space-evenly) the pagination buttons at the bottom of the page. X
 
-+ Add your name to the footer copyright.
++ Add your name to the footer copyright. X
 
-+ Style the page with a suitable color scheme, either light or dark, so it doesn't look so plain. Consider using color for: navigation-bar background and text, footer background and text, page background, header background, body text, and pagination buttons, both normal and on hover.
++ Style the page with a suitable color scheme, either light or dark, so it doesn't look so plain. Consider using color for: navigation-bar background and text, footer background and text, page background, header background, body text, and pagination buttons, both normal and on hover. X
 
 ## Bonus
-I wrapped a span with the .dropcap class around the first letter of the article in /index.html, but never wrote the css for it. If you can, please use it to create a drop-cap effect (A big first letter at the start of the paragraph).
+I wrapped a span with the .dropcap class around the first letter of the article in /index.html, but never wrote the css for it. If you can, please use it to create a drop-cap effect (A big first letter at the start of the paragraph). X

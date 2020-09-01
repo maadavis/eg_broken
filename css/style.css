@@ -1,6 +1,13 @@
 /*--Remember the cascade: Later styles override earlier ones and more specific styles override more general ones.--*/
+.dropcap{
+font-size: 150px;
+float: left;
+line-height: 60px;
+}
+
 body {
-  color: #444;
+  color: #000099;
+  background-color: #00001a;
   font-size: 16px;
   font-family: 'Gentium Book Basic', serif;
 }
@@ -8,12 +15,12 @@ p {
   margin-bottom: .67em;
 }
 nav, footer {
-  background-color: #444;
+  background-color: #000033;
 }
 footer {
   text-align: center;
   padding: 1em 0 .3em 0;
-  color: #D0D0D0;
+  color: #000099;
 }
 /*-- Main Menu Styles--*/
 nav ul {
@@ -23,15 +30,14 @@ nav ul {
   justify-content: space-between;
 }
 nav a:link, nav a:visited {
-  color: #D0D0D0;
+  color: #000099;
   text-decoration: none;
 }
 nav a:hover, nav a:active  {
-  color: #F0F0F0;
   text-decoration: underline;
 }
 nav a.active {
-  color: #F0F0F0;
+  color: #000099;
 }
 /*-- Hero Unit Styles--*/
 header {
@@ -54,10 +60,10 @@ header h1 {
 }
 .small {
   margin-top: 1em;
-  color: #929292;
+  color: #3333ff;
   font-size: 16px;
   font-family: 'lato', sans-serif;
-  font-weight: 900;
+  font-weight: 450;
   text-transform: uppercase;
 }
 /*-- Article Styles--*/
@@ -71,28 +77,37 @@ article {
 article figure {
   width: 39%;
   margin: 0 0 1.25em 1.25em;
+  float: right;
 }
 article figcaption {
+  font-weight: 450;
+  font-family: 'lato', sans-serif;
+  color: #3333ff;
+  font-size: 16px;
 }
 .pagination {
   margin-top: 2em;
   margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
   width: 96%;
 }
 a.button {
-  border: 1px solid #888;
+  border: 1px solid #000099;
   padding: .4em 1em .4em 1em;
   text-decoration: none;
-  color: #888;
+  color: #000099;
   border-radius: 200px;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 80%;
 }
 a.button:hover, a.button:active {
-  border: 1px solid #444;
+  border: 1px solid #000033;
   text-decoration: none;
-  color: #222;
+  color: #000033;
 }
 /*-- changes header and article width on small screens --*/
 @media screen and (max-width: 768px) {
