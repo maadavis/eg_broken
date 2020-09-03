@@ -6,7 +6,7 @@ line-height: 60px;
 }
 
 body {
-  color: #000099;
+  color: #A3A3FF;
   background-color: #00001a;
   font-size: 16px;
   font-family: 'Gentium Book Basic', serif;
@@ -20,7 +20,7 @@ nav, footer {
 footer {
   text-align: center;
   padding: 1em 0 .3em 0;
-  color: #000099;
+  color: #A3A3FF;
 }
 /*-- Main Menu Styles--*/
 nav ul {
@@ -30,14 +30,14 @@ nav ul {
   justify-content: space-between;
 }
 nav a:link, nav a:visited {
-  color: #000099;
+  color: #A3A3FF;
   text-decoration: none;
 }
 nav a:hover, nav a:active  {
   text-decoration: underline;
 }
 nav a.active {
-  color: #000099;
+  color: #A3A3FF;
 }
 /*-- Hero Unit Styles--*/
 header {
@@ -60,7 +60,7 @@ header h1 {
 }
 .small {
   margin-top: 1em;
-  color: #3333ff;
+  color: #A3A3FF;
   font-size: 16px;
   font-family: 'lato', sans-serif;
   font-weight: 450;
@@ -82,7 +82,7 @@ article figure {
 article figcaption {
   font-weight: 450;
   font-family: 'lato', sans-serif;
-  color: #3333ff;
+  color: #A3A3FF;
   font-size: 16px;
 }
 .pagination {
@@ -95,19 +95,19 @@ article figcaption {
   width: 96%;
 }
 a.button {
-  border: 1px solid #000099;
+  border: 1px solid #A3A3FF;
   padding: .4em 1em .4em 1em;
   text-decoration: none;
-  color: #000099;
+  color: #A3A3FF;
   border-radius: 200px;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 80%;
 }
 a.button:hover, a.button:active {
-  border: 1px solid #000033;
+  border: 1px solid #5757FF;
   text-decoration: none;
-  color: #000033;
+  color: #5757FF;
 }
 /*-- changes header and article width on small screens --*/
 @media screen and (max-width: 768px) {
